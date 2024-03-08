@@ -1,27 +1,22 @@
-# FelineStudyHub
+# StudySaver 📚💰
 
-FelineStudyHub es una aplicación móvil desarrollada en React Native que combina utilidades de estudio, gestión financiera y entretenimiento, todo con la temática felina. Ofrece a los usuarios una amplia gama de funciones para mejorar su organización personal y disfrutar de una experiencia única.
+StudySaver es una aplicación móvil desarrollada en React Native que combina utilidades de estudio, gestión financiera y entretenimiento. Ofrece a los usuarios una amplia gama de funciones para mejorar su organización personal y disfrutar de una experiencia única.
 
 ## Características
 
-- **Almacenamiento Local y Gestión de Usuarios:** La aplicación incorpora un sistema de almacenamiento local para asegurar la seguridad y personalización de los datos del usuario. Permite la gestión de múltiples perfiles de usuario.
-  
-- **Tarjetas de Estudio Personalizadas:** Permite crear, almacenar y repasar tarjetas de estudio adaptadas a las necesidades educativas o laborales del usuario.
+### Almacenamiento Local y Gestión de Usuarios
+La aplicación incorpora un sistema de almacenamiento local para asegurar la seguridad y personalización de los datos del usuario. Permite la gestión de múltiples perfiles de usuario.
 
-- **Registro de Gastos y Ahorros:** Ofrece una sección para el registro y seguimiento de gastos y ahorros personales, proporcionando control financiero.
+### Tarjetas de Estudio Personalizadas
+Permite crear, almacenar y repasar tarjetas de estudio adaptadas a las necesidades educativas o laborales del usuario.
 
-- **API de Gatos Aleatorios:** Sección de entretenimiento que muestra imágenes de gatos de manera aleatoria utilizando una API especializada.
+### Registro de Gastos y Ahorros
+Ofrece una sección para el registro y seguimiento de gastos y ahorros personales, proporcionando control financiero.
 
 ## Instalación
 
-1. Clona este repositorio.
-2. Instala las dependencias usando `npm install`.
-3. Ejecuta la aplicación utilizando `npm start`.
+1. Clona este repositorio en tu máquina local.
+2. Instala las dependencias utilizando npm:
 
-## Tecnologías Utilizadas
-
-- React Native
-- React Native Paper
-- Almacenamiento Local
-- CatApi
-
+   ```bash
+   npm install

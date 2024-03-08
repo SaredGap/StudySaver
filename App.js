@@ -5,7 +5,6 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import HomeScreen from './HomeScreen';
 import FlashcardApp from './FlashcardApp';
 import GastosScreen from './GastosScreen';
-import GatosApps from './GatosApps';
 import LoginScreen from './LoginScreen';
 
 
@@ -38,7 +37,6 @@ function App() {
         </Stack.Screen>
         <Stack.Screen name="Flashcards" component={FlashcardApp} />
         <Stack.Screen name="Gastos" component={GastosScreen} />
-        <Stack.Screen name="Gatos" component={GatosApps} />
         <Stack.Screen name="Login" component={LoginScreen} />
         
       </Stack.Navigator>

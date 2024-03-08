@@ -7,7 +7,6 @@ const HomeScreen = ({ navigation }) => {
   const data = [
     { key: 'Flashcards', title: 'Card Estudio' },
     { key: 'Gastos', title: 'Gastos Diarios' },
-    { key: 'Gatos', title: 'Gatos del dia' },
   ];
 
   const renderItem = ({ item }) => (
@@ -31,14 +30,14 @@ const HomeScreen = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <Appbar.Header style={styles.appbar}>
-        <Appbar.Content title="FelineStudyHub!" titleStyle={styles.title} />
+        <Appbar.Content title="StudySaver!" titleStyle={styles.title} />
         <IconButton icon="exit-to-app" color="#fff" onPress={handleLogout} />
       </Appbar.Header>
 
       <View style={styles.contentContainer}>
         <Card style={styles.card}>
           <Card.Content>
-            <Title style={styles.cardTitle}>¡Bienvenido a la aplicación de FelineStudyHub!</Title>
+            <Title style={styles.cardTitle}>¡Bienvenido a la aplicación de StudySaver!</Title>
           </Card.Content>
           <FlatList
             data={data}
